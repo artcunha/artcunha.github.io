@@ -1,0 +1,60 @@
+baseURL: 'https://artcunha.github.io'
+title: Arthur
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: 'ExampleSite's description'
+  author: Me
+
+  images: "<link or path of image for opengraph, twitter-cards>"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle : false
+  disableSpecial1stPost : false
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    # imageUrl: '<img location>'
+    # imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: twitter
+      url: 'https://twitter.com/'
+    - name: stackoverflow
+      url: 'https://stackoverflow.com'
+    - name: github
+      url: 'https://github.com/'
+
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
