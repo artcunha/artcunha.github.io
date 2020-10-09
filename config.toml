@@ -1,0 +1,6 @@
+baseURL = "https://artcunha.github.io"
+theme = "hugo-PaperMod"
+languageCode = "en-us"
+title = "Arthur Cunha"
+publishDir = "docs"
+
