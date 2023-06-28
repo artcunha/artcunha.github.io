@@ -1,0 +1,28 @@
+<header class="site-header">
+ 
+  <nav class="navbar">
+    <ul>
+
+      <li class="{% if page.logo %}{{ page.logo }} {% endif %}">
+        <a style="font-size:300%;font-weight: bold;" class="{% if page.logo %}{{ page.logo }} {% endif %}" href="{{ site.baseurl }}/">ARTHUR CUNHA</a>
+      </li>
+      
+      <li class="nav-item">
+        <a href="{{ site.baseurl }}/techart" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">Tech Art</a>
+
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}/professional" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">Professional Work</a>
+  
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}/personal"class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}" >Personal</a>
+        </li>
+      </li>
+
+       <li class="nav-item">
+        <a href="{{ site.baseurl }}/about"class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}" >About</a>
+      </li>
+      
+    </ul>
+  </nav>
+
+</header>

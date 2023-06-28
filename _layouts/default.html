@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{% if page.style %}{{ page.style }} {% endif %}">
+
+    <main class="wrapper">
+      
+      {% include header.html %}
+
+      <div class="container">
+        {{ content }}
+
+        {% unless page.style %}
+        {% include footer.html %}
+        {% endunless %}
+      </div>
+    
+    </main>
+
+    {% include scripts.html %}
+   
+    
+  </body>
+
+</html>

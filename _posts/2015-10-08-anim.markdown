@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Animation Reel"
+date:   2018-10-09 15:39:40
+preview: /assets/img/anim_thumbnail.png
+category: personal
+---
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/696687735?h=e729a48d44&color=ff9933&title=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<p><a href="https://vimeo.com/696687735">Anim Reel 2022</a> from <a href="https://vimeo.com/artcunha">Arthur Cunha</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+Miscellaneous animation pieces I’ve done over the years for Agora’s AnimChallenge or as personal studies.
