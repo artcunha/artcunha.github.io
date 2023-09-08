@@ -13,7 +13,6 @@ A very common problem in 3d animation is dealing with perspective in, what's oft
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A little behind the camera peek at one of my shots on <a href="https://twitter.com/hashtag/Encanto?src=hash&amp;ref_src=twsrc%5Etfw">#Encanto</a> <a href="https://t.co/f1zUT2NhQf">pic.twitter.com/f1zUT2NhQf</a></p>&mdash; Tony Bonilla (@Tonymation) <a href="https://twitter.com/Tonymation/status/1633239873992953856?ref_src=twsrc%5Etfw">March 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Foreshortening is a core drawing fundamental - it describes how quickly objects distort and fall into perspective. This doesn't always follows linear rules and it's often pushed by artists. 
 
-Foreshortening is one of the core drawing fundamentals - it describes how quickly objects distort and fall into perspective. In a lot of art styles, this can be exaggerated to create more dynamic poses.
-
-The idea with this deformer is to allow artists to apply a varied focal length at different points of the object(s) based on a user-defined distance. This allows for a variety of effects, from non-linear perspective, to distortion fixes… much like in drawing.
+The idea with this deformer is to give animators the control of that foreshortening on object basis, based on a user-defined distance. This also provides a non-destructive way of posing to camera, which can potentially enhance workflows with downstream departments like layout and sim.  
