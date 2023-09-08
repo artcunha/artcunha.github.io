@@ -9,7 +9,10 @@ category: techart
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/740546333?h=ff2bea2ada&loop=1&title=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-A very common problem we face in stylized 3d is dealing with perspective, as experienced during my time on Spiderverse.
+A very common problem in 3d animation is dealing with perspective in, what's often called, "posing to camera". 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A little behind the camera peek at one of my shots on <a href="https://twitter.com/hashtag/Encanto?src=hash&amp;ref_src=twsrc%5Etfw">#Encanto</a> <a href="https://t.co/f1zUT2NhQf">pic.twitter.com/f1zUT2NhQf</a></p>&mdash; Tony Bonilla (@Tonymation) <a href="https://twitter.com/Tonymation/status/1633239873992953856?ref_src=twsrc%5Etfw">March 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Foreshortening is one of the core drawing fundamentals - it describes how quickly objects distort and fall into perspective. In a lot of art styles, this can be exaggerated to create more dynamic poses.
 
