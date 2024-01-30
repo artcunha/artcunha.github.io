@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 My background in design informs everything I do. 
-I enjoy learning new crafts and collaborating with artists!\
+I enjoy learning new crafts and collaborating with artists!
 
 Currently working at Sony Pictures Imageworks.
 
