@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-[###CV🞃](/assets/Arthur_Cunha_CV.pdf)
+###[CV🞃](/assets/Arthur_Cunha_CV.pdf)
 
 My background in design informs everything I do. 
 I enjoy learning new crafts and collaborating with artists!
