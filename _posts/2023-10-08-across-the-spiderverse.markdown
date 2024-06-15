@@ -9,11 +9,15 @@ category: [professional, techart]
 <!-- ![Picture 1](/assets/img/across_spiderverse.jpg) -->
 ![Picture 1](/assets/img/AcrossTheSpiderVerse_1.gif)
 
+# FX Reel
+While I spent most of the show in Maya developing animation tools, I also got the chance to work in Houdini as part of the FX department.
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/844417966?title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
 # Tool Development
 
 ## Inklines Tool
 
-I got the chance to design and write one of the main animation tools for this ambitious sequel. The goal was to be flexible, yet intuitive. It accommodated various types of line and shape geometries that were used for smears and facial accents.
+My biggest assignment was to redesign and maintain one of the main animation tools of the project. The goal was to be flexible, yet intuitive. It accommodated various types of line and shape geometries that were used for smears and facial accents.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">To ensure the anim team had an intuitive way to draw on their work no matter their preferred work flow, we built two ways to draw: <br><br>1: The spline-based Ink Line Tool. Upgraded from the first film. <br><br>2: A new pipeline to Blender for hand-drawn sketching.<a href="https://twitter.com/hashtag/AcrossTheSpiderVerse?src=hash&amp;ref_src=twsrc%5Etfw">#AcrossTheSpiderVerse</a> <a href="https://t.co/PatbdfOaKH">pic.twitter.com/PatbdfOaKH</a></p>&mdash; Nick Kondo 近藤 (@NickTyson) <a href="https://twitter.com/NickTyson/status/1667345951122669570?ref_src=twsrc%5Etfw">June 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -46,9 +50,5 @@ Due to the variety of rendering styles on the movie and the complexity of our fi
 I spent some time studying this amazing target from Aymeric, as well as this great [paper from Valve on TF2's shaders](https://steamcdn-a.akamaihd.net/apps/valve/2007/NPAR07_IllustrativeRenderingInTeamFortress2.pdf). The final shader basically consisted of a diffuse, specular and a fresnel/rim component.
 
 After this proof of concept, the shader - along with other Ben Reilly specific workflows - was made into its own tool by the awesome Alan Zheng.
-
-# FX Shots
-Towards the end of the show, I also got to work in Houdini as part of the FX department. I was super grateful for this oppurtunity to do more hands-on shot work! 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/844417966?title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <!-- ![Picture 2](/assets/img/AcrossTheSpiderVerse_2.gif) -->
