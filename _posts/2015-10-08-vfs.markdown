@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "P.A.R.Ts Rigging Tool"
+title:  "Modeling & Rigging"
 date:   2019-10-09 15:39:40
 preview: /assets/img/parts_thumbnail.png
 category: techart
