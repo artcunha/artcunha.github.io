@@ -11,7 +11,7 @@ category: [professional, techart]
 
 
 # FX Reel
-I worked for over 2 years on Spider-verse, from right before animation started, until shipping weeks before release. While most of that time was in Maya developing animation tools, I also got the chance to work in Houdini as part of the FX department. This involved shots with a mix of procedural and hand-drawn effects which you can check here. 
+I worked for over 2 years and a half on Spider-verse, from right before animation started, until shipping weeks before release. While most of that time was in Maya developing animation tools, I also got the chance to work in Houdini as part of the FX department. This involved shots with a mix of procedural and hand-drawn effects which you can check here. 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/844417966?title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
  
@@ -22,7 +22,7 @@ I worked for over 2 years on Spider-verse, from right before animation started, 
 
 <img src="/assets/img/spiderverse_inklines_01.jpg" alt="drawing" width="720" />
 
-My longest assignment was to redesign and maintain one of the main animation tools of the project. This was done through extense collaboration with the Anim Leads, and although we signed on a new workflow early on, there was a lot of new features and polishing required as the team grew to 200+ users. \
+My longest assignment was to redesign and maintain one of the main animation tools of the project. This was done through extense collaboration with the Anim Leads, and although we signed on a new workflow early on, there was a lot of new features and polishing required as the team grew to 300+ users. \
 Given the multiple types of lines and ways of drawing, the tool had to serve as a rig picker, a scene manager and a toolbar all in one. So it was important to create a flexible experience that would allow the artists to draw freely and only have more advanced options show when they need them.  
 
 <!-- ### Data types -->
