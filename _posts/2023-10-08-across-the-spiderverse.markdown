@@ -47,11 +47,7 @@ My first project on the show was to rethink our body smears (also known as "mult
 * Re-writing the api to be more modular and scalable.
 * Redesigning the UI and selection methods to keep artists in their flow, without disruption.
 
-![Picture 2](/assets/img/spiderverse_clonestamp_01.png)
-<p float="left">
-<img src="/assets/img/spiderverse_clonestamp_02.png" alt="drawing" width="360" />
-<img src="/assets/img/spiderverse_clonestamp_03.png" alt="drawing" width="360" />
-</p>
+![Picture 2](/assets/img/spiderverse_clonestamp_06.png)
 
 I pitched a new selection system that accommodated a variety of ways to automatically split the mesh. This system proved to be very flexible for artists, allowing them to use it in different ways without overcrowding the UI with options. Later, the tool had to account for things like variants, groom, and cfx meshes. The new API allowed us to implement various updates requested by downstream departments, which were seamless to the artists.
 
