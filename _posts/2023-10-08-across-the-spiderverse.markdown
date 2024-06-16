@@ -14,7 +14,7 @@ category: [professional, techart]
 While I spent most of the show in Maya developing animation tools, I also got the chance to work in Houdini as part of the FX department. This involved shots with a mix of procedural and hand-drawn effects. 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/844417966?title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
-\
+ 
 
 # Tool Development
 
@@ -62,6 +62,7 @@ Due to the ever changing scope of the project, there was a lot of tech-art work 
 
 ###  Procedural Punk Cutout
 ![Picture 2](/assets/img/punk.gif)
+ 
 After the first animation tests, it was clear how much the cutout would play into Hobie's character. The idea was a decimated, inverse-hull cage wrapped to the rig and displaced by a noise plugged to his stepping. The script could also generate these cages for any other characters or props on the fly when needed for other characters or prop interaction. The end solution was way more elegant.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a (recreated) diagram of how the 2D elements are set up in one of my Maya scenes for my Hobie shots! Normally, you would do this in post with compositing software, but since we needed to have all the animation represented for approval in playblast, this is what we did... <a href="https://t.co/mSmhZQlkOV">pic.twitter.com/mSmhZQlkOV</a></p>&mdash; Li Wen Toh (@LiWenToh) <a href="https://twitter.com/LiWenToh/status/1666652467306860544?ref_src=twsrc%5Etfw">June 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
