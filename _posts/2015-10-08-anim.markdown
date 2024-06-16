@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Animation Reel"
+title:  "Animation"
 date:   2018-10-09 15:39:40
 preview: /assets/img/anim_thumbnail.png
 category: personal
