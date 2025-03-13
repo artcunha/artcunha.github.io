@@ -14,20 +14,20 @@ Houdini setup is based on 2 subnetworks, one to drive the shape and the other to
 
 AO, Curvature and Sharpness are exported in the Vertex Color to use in the material.
 
-![Picture 2](/assets/img/cliffs_houdini.jpg)
+![Picture 2](/assets/img/cliffs_houdini.png)
 
 ## Unreal
 
 Since the cliffs are very blocky, it felt natural to use a cube  to drive it so it’s easy to duplicate it around scaling it across the scene.
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="/assets/video/cliffs_pcg.mp4" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
-<!-- <img src="/assets/img/spiderverse_inklines_01.jpg" alt="drawing" width="720" /> -->
-![Picture 2](/assets/img/cliffs_material.jpg)
+<!-- <img src="/assets/img/spiderverse_inklines_01.png" alt="drawing" width="720" /> -->
+![Picture 2](/assets/img/cliffs_material.png)
 
-![Picture 2](/assets/img/cliffs01.jpg)
+![Picture 2](/assets/img/cliffs01.png)
 
-![Picture 2](/assets/img/cliffs02.jpg)
+![Picture 2](/assets/img/cliffs02.png)
 
-![Picture 2](/assets/img/cliffs03.jpg)
+![Picture 2](/assets/img/cliffs03.png)
 
 
