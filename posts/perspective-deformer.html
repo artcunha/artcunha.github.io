@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Arthur Cunha Portfolio</title>
+    <meta property="og:image" content="../assets/img/thumbnails/viewspace_thumbnail.webp">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Plus%20Jakarta%20Sans.css">
+    <link rel="stylesheet" href="../assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/Features-Cards-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+    <link rel="stylesheet" href="../assets/css/Markdown.css">
+</head>
+
+<body class="bg-light d-flex h-100 flex-column">
+    <main class="flex-shrink-0">
+        <nav class="navbar navbar-expand-lg sticky-top bg-white fs-3 py-3 navbar-light">
+            <div class="container"><a class="navbar-brand" href="index.html"><span class="fs-1 fw-bolder text-primary" style="color: var(--bs-dark);">Arthur Cunha</span></a><button data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-bolder ms-auto mb-2 mb-lg-0 small">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="py-5">
+            <div class="container mb-5 px-5">
+                <article></article>
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="d-inline text-gradient">Perspective Deformer</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8 offset-xxl-0"><iframe class="d-flex justify-content-center align-items-center align-content-center align-self-center p-2" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/740546333" width="560" height="315"></iframe>
+                        <p><br>The idea with this deformer is to give animators the control of that foreshortening on object basis, based on a user-defined distance. This also provides a non-destructive way of posing to camera, which can potentially enhance workflows with downstream departments like layout and sim.<br><br></p>
+                        <h2 class="fw-semibold">Pushing non-linear perspective</h2>
+                        <p class="p-2"><span style="color: rgb(96, 108, 118);">Foreshortening is a core drawing fundamental - it describes how quickly objects distort and fall into perspective. This doesn’t always follows linear rules and it’s often pushed by artists.</span><br><br></p>
+                        <h2 class="fw-semibold">Model View Projections</h2>
+                        <p class="p-2"><span style="color: rgb(96, 108, 118);">The actual technique is straightforward, instead of multiplying the vertex position by the MVP</span>&nbsp;matrix like in a regular vertex shader, we calculate the delta of the matrix by a new one based on the&nbsp; deformer's custom Focal Length<span style="color: rgb(96, 108, 118);">&nbsp;input. This is also multiplied by a float ramp mapped to the distance range so that we can change the Focal Length in Z, effectively allowing us to "bend" the perspective lines.</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-white py-5 bg-gradient-primary-to-secondary">
+            <div class="container px-5 my-5">
+                <div class="text-center"></div>
+            </div>
+        </section>
+    </main>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="../assets/js/Markdown-markdown.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Arthur Cunha Portfolio</title>
+    <meta property="og:image" content="../../assets/img/thumbnails/spider_thumbnail.webp">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/Plus%20Jakarta%20Sans.css">
+    <link rel="stylesheet" href="../../assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../assets/css/Features-Cards-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+    <link rel="stylesheet" href="../../assets/css/Markdown.css">
+</head>
+
+<body class="bg-light d-flex h-100 flex-column">
+    <main class="flex-shrink-0">
+        <nav class="navbar navbar-expand-lg sticky-top bg-white fs-3 py-3 navbar-light">
+            <div class="container"><a class="navbar-brand" href="index.html"><span class="fs-1 fw-bolder text-primary" style="color: var(--bs-dark);">Arthur Cunha</span></a><button data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-bolder ms-auto mb-2 mb-lg-0 small">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="py-5">
+            <div class="container mb-5 px-5">
+                <article></article>
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="d-inline text-gradient"><br><span style="color: rgb(96, 108, 118);">Spider-Man: Across the Spider-Verse</span></span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8"><img src="../../assets/img/breakdowns/spiderverse/AcrossTheSpiderVerse_1.gif" width="759" height="325">
+                        <p><br>I worked for over 2 and a half years on Spider-verse, from right before animation started, until shipping weeks before release. While most of that time was in Maya developing animation tools, I also got the chance to work in Houdini as part of the FX department. This involved shots with a mix of procedural and hand-drawn effects which you can check here.<br><br></p>
+                        <h1>Tools</h1><img class="img-fluid" width="3840" height="1600" src="../../assets/img/breakdowns/spiderverse/spiderverse_inklines_01.webp">
+                        <h3>Inklines</h3>
+                        <p>My longest assignment was to redesign and maintain one of the main animation tools of the project. This was done through extense collaboration with the Anim Leads, and although we signed on a new workflow early on, there was a lot of new features and polishing required as the team grew to 300+ users.<br><br>Given the multiple types of lines and ways of drawing, the tool had to serve as a rig picker, a scene manager and a toolbar all in one. So it was important to create a flexible experience that would allow the artists to draw freely and only have more advanced options show when they need them.</p><img class="img-fluid" width="3840" height="1600" src="../../assets/img/breakdowns/spiderverse/spiderverse_inklines_03.webp">
+                        <p>The lines weren’t just for flashy smears, they could also be drawn or constrained directly on the surface for performance, and then be exported across different shots for continuity.</p>
+                        <p><br>The first movie lines were just a static nurbs bind to some clusters. We changed that to a new dynamic spline based approach that allowed us to add or remove controllers. Although I was able to repurpose the custom node from the The Sea Beast ropes,<a href="https://coleobrien.medium.com/matrix-splines-in-maya-ec17f3b3741"> there’s a great post from Cole O’Brien </a>breaking down how to do this with vanilla maya nodes. On top of this, I had to figure out some logic to dynamically recreate these while preserving the curvature and tangents with the minimum ammount of controls for any custom “baked” curve, <a href="https://x.com/NickTyson/status/1667345951122669570">whether that was drawn, from a model or imported from Blender</a>.<br><br>We also pushed a lot for a better viewport drawing experience. As I was already familiar with <a href="https://github.com/artcunha/keychain/tree/main?tab=readme-ov-file#tracer">making custom Context Commands</a>, I wrote some projection options to get the points from screen space into different planes and normals based on the type of selection. There was as constant back and forth between artists who preffered the spline rig approach, the viewport drawing or just foregoing everything to frame by frame in Blender. We had to accomodate every option and constantly make sure those all related back to the same pipeline for the back-end.<br><br>That standard in rendering was crucial since FX also had their own Linework team, and the question of who does what is in fact something we often get asked. But as the FX department got flooded by the final deadline, that pipeline allowed animators to take some of the load out of the smaller Houdini team.<br><br></p>
+                        <h3>Clonestamps - Smear Tool</h3><img class="img-fluid" width="3840" height="1600" src="../../assets/img/breakdowns/spiderverse/spiderverse_clonestamp_05.webp">
+                        <p><br>My first task on the show was to rethink our body smears (also known as “multiples”) workflow. Some of the main goals were:<br><br>- Optimizing the idle time that took to load our assets.<br>- Re-writing the api to be more modular and scalable.<br>- Redesigning the UI and selection methods to keep artists in their flow, without disruption.</p><img class="img-fluid" width="3840" height="1600" src="../../assets/img/breakdowns/spiderverse/spiderverse_clonestamp_06.webp">
+                        <p><br>I pitched a new selection system that accommodated a variety of ways to automatically split the mesh. This system proved to be very flexible for artists, allowing them to use it in different ways without overcrowding the UI with options. Later, the tool had to account for things like variants, groom, and cfx meshes. The new API allowed us to implement various updates requested by downstream departments, which were seamless to the artists.</p>
+                        <h2>FX Work</h2><iframe allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/844417966" width="560" height="315"></iframe>
+                        <p>I worked for over 2 and a half years on Spider-verse, from right before animation started, until shipping weeks before release. While most of that time was in Maya developing animation tools, I also got the chance to work in Houdini as part of the FX department. This involved shots with a mix of procedural and hand-drawn effects which you can check here.</p>
+                        <h2>RnD and Explorations</h2>
+                        <p>Due to the ever changing scope of the project, there was a lot of tech-art work that didn’t make the cut. We were lucky to have a Pipeline Supervisor that would constantly ask us to chime in and pitch solutions, these were some of my favorites I got to mockup.</p>
+                        <h3>Procedural Punk Cutout</h3><img class="img-fluid" width="640" height="259" src="../../assets/img/breakdowns/spiderverse/punk.gif">
+                        <p>After the first animation tests, it was clear how much the cutout would play into Hobie’s character. The idea was a decimated, inverse-hull cage wrapped to the rig and displaced by a noise plugged to his stepping. The script could also generate these cages for any other characters or props on the fly when needed for other characters or prop interaction. <a href="https://x.com/LiWenToh/status/1666652467306860544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1666652467306860544%7Ctwgr%5E8e05b18c5958526945d17b7e62b4b4f4fc7247e0%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fartcunha.github.io%2F%2Fprofessional%2Ftechart%2F2023%2F05%2F06%2Facross-the-spiderverse-copy%2F">The end solution was way more elegant</a>.</p>
+                        <h3>Stylized viewport shader</h3><img class="img-fluid" width="1920" height="801" src="../../assets/img/breakdowns/spiderverse/ben_reilly.webp">
+                        <p><br><span style="color: rgb(96, 108, 118);">Due to the variety of rendering styles on the movie and the complexity of our final look-of-picture pipeline, we also experimented with different ways of representing those looks inside the Maya viewport. It was important to visualize how lighting and shading could drive the performances. That meant that characters from different universes like Ben Reilly had their own independent light logic. To achieve this, I helped the team by mocking up a custom viewport shader that could also be used for characters like Peni or Hobie.</span><br><br><br><span style="color: rgb(96, 108, 118);">After the proof of concept, this - along with other Ben Reilly specific setups - was made into its own tool by Alan Zheng.</span></p>
+                        <h2>Functional Portals</h2>
+                        <p>We tried a miriad of approaches during production from custom deformers to Houdini Engine and OpenGL Shaders. Early on I tried Bifrost on a two sided portal setup that would flatten the geometry and copy the mesh to the other side with a “travel time” offset exposed. This wasn’t developed further as the logic of portals changed a lot and anim would often need to mockup a lot of things in the hackiest, fastest way possible. That in itself is a great summary of the inherit challenge of developing tech and standardadizing workflows for a project like this, sometimes we really do need to step back and just let artists do their own thing.</p><img class="img-fluid" width="3840" height="1600" src="../../assets/img/breakdowns/spiderverse/spiderverse_portals.webp">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-white py-5 bg-gradient-primary-to-secondary">
+            <div class="container px-5 my-5">
+                <div class="text-center"></div>
+            </div>
+        </section>
+    </main>
+    <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="../../assets/js/Markdown-markdown.js"></script>
+</body>
+
+</html>
